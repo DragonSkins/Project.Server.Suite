@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ActionParameter.cs" />
+    <Compile Remove="ActionParameterType.cs" />
+    <Compile Remove="ActionScript.cs" />
+    <Compile Remove="Interfaces\IActionParameter.cs" />
+    <Compile Remove="Interfaces\IActionParameterType.cs" />
+    <Compile Remove="Interfaces\IActionScript.cs" />
+    <Compile Remove="Interfaces\IMailNotification.cs" />
+    <Compile Remove="Interfaces\IPssTask.cs" />
+    <Compile Remove="Interfaces\IPssWorkerLable.cs" />
+    <Compile Remove="Interfaces\IRevision.cs" />
+    <Compile Remove="Interfaces\IServiceNotification.cs" />
+    <Compile Remove="Interfaces\IServiceToMail.cs" />
+    <Compile Remove="Interfaces\ISetting.cs" />
+    <Compile Remove="Interfaces\ISmtpSetting.cs" />
+    <Compile Remove="Interfaces\ITaskCollection.cs" />
+    <Compile Remove="Interfaces\ITaskExecuteRevision.cs" />
+    <Compile Remove="Interfaces\ITaskExecutionHistory.cs" />
+    <Compile Remove="Interfaces\ITaskParameter.cs" />
+    <Compile Remove="Interfaces\ITaskProject.cs" />
+    <Compile Remove="Interfaces\ITaskSetting.cs" />
+    <Compile Remove="Interfaces\ITaskSettingType.cs" />
+    <Compile Remove="Interfaces\ITemplate.cs" />
+    <Compile Remove="Interfaces\ITemplateParameter.cs" />
+    <Compile Remove="Interfaces\ITemplateProject.cs" />
+    <Compile Remove="Interfaces\ITemplateSetting.cs" />
+    <Compile Remove="Interfaces\IWorker.cs" />
+    <Compile Remove="Interfaces\IWorkerAssignedLable.cs" />
+    <Compile Remove="Interfaces\IWorkerLable.cs" />
+    <Compile Remove="MailNotification.cs" />
+    <Compile Remove="PssTask.cs" />
+    <Compile Remove="PssWorkerLable.cs" />
+    <Compile Remove="Revision.cs" />
+    <Compile Remove="ServiceNotification.cs" />
+    <Compile Remove="ServiceToMail.cs" />
+    <Compile Remove="Setting.cs" />
+    <Compile Remove="SmtpSetting.cs" />
+    <Compile Remove="TaskCollection.cs" />
+    <Compile Remove="TaskExecuteRevision.cs" />
+    <Compile Remove="TaskExecutionHistory.cs" />
+    <Compile Remove="TaskParameter.cs" />
+    <Compile Remove="TaskProject.cs" />
+    <Compile Remove="TaskSetting.cs" />
+    <Compile Remove="TaskSettingType.cs" />
+    <Compile Remove="Template.cs" />
+    <Compile Remove="TemplateParameter.cs" />
+    <Compile Remove="TemplateProject.cs" />
+    <Compile Remove="TemplateSetting.cs" />
+    <Compile Remove="Worker.cs" />
+    <Compile Remove="WorkerAssignedLable.cs" />
+    <Compile Remove="WorkerLable.cs" />
+  </ItemGroup>
+
+</Project>
